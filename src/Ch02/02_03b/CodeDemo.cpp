@@ -4,9 +4,25 @@
 
 #include <iostream>
 
+using namespace std;
+
+int a, b = 5;
+
 int main(){
-    std::cout << "Hi There!" << std::endl;
+    bool my_flag;
+    a = 7;
+    cout << "value of a: "<< a << endl;
+    cout << "value of b: "<< b << endl;
+    cout << "value of my_flag: "<< my_flag << endl;
+    my_flag = true;
+    int sum = b + a, diff = b - a;
+    cout << "value of b+a: "<< sum << endl;
+    cout << "value of b-a: "<< diff << endl;
+    cout << "value of my_flag: "<< my_flag << endl;
+    unsigned int positive;
+    positive = b - a;
+    cout << "b - a (unsigned): " << positive << endl;
     
-    std::cout << std::endl << std::endl;
+    cout << endl << endl;
     return (0);
 }
