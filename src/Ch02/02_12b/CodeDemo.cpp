@@ -5,14 +5,13 @@
 #include <iostream>
 #include <cstdint>
 
-enum cow_purpose {dairy, meat, hide, pet};
+enum class cow_purpose {dairy, meat, hide, pet};
 
 int main(){
-    int a;
+    int meat = 8;
+    cow_purpose a = cow_purpose::meat;
 
-    a = meat;
-
-    std::cout << "a = " << a << std::endl;
+    std::cout << "a = " << (int)a << std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
