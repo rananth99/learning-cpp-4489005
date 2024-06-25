@@ -17,10 +17,10 @@ class Course{
 private:
     int id;
     std::string name;
-    unsigned char credits;
+    int credits;
 
 public:
-    Course(int the_id, std::string the_name, unsigned char the_credits);
+    Course(int the_id, std::string the_name, int the_credits);
     int get_id() const;
     std::string get_name() const;
     int get_credits() const;

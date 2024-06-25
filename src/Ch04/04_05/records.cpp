@@ -11,7 +11,7 @@ std::string Student::get_name() const{
     return name;
 }
 
-Course::Course(int the_id, std::string the_name, unsigned char the_credits){
+Course::Course(int the_id, std::string the_name, int the_credits){
     id = the_id;
     name = the_name;
     credits = the_credits;
